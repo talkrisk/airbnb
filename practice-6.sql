@@ -15,4 +15,4 @@
 -- | Brighton Park          | 678      |
 -- | Burnside               | 10       |
 
-SELECT COUNT (*) FROM reviews GROUP BY listings
+SELECT neighborhood FROM listings GROUP BY neighborhood 
