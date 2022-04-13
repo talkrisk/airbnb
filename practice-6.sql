@@ -15,4 +15,4 @@
 -- | Brighton Park          | 678      |
 -- | Burnside               | 10       |
 
-SELECT neighborhood FROM listings GROUP BY neighborhood 
+SELECT neighborhood, COUNT(id) FROM listings GROUP BY neighborhood 

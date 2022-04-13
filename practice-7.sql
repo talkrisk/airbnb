@@ -16,4 +16,4 @@
 -- | Entire townhouse                    | 3588     | 2021-10-17                 |
 -- | Entire villa                        | 75       | 2021-10-12                 |
 
-SELECT FROM
+SELECT property_type, COUNT(id), date_reviewed FROM listings GROUP BY property_type 
